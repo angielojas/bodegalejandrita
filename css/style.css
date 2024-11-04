@@ -1,0 +1,54 @@
+@media (max-width:768px) {
+    #intro{
+        width: 90% !important;
+    }
+    .servicio-fila{
+        width: 100% !important;
+        text-align: center;
+    }
+    #bg-contacto{
+        top: -110px;
+    }
+}
+@media (max-width: 576px) {
+    .icono-wrap{
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+}
+#bg-contacto{
+    position: relative;
+    top: -130px;
+}
+#seccion-contacto{
+    background-color: #fffce4;
+    min-height: 500px;
+    position: relative;
+}
+#contenedor-formulario{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fbfafa;
+    border-radius: 5px;
+    max-width: 500px;
+}
+#titulo-formulario{
+    color: #fffce4;
+}
+footer{
+    background: #fffce4;
+    min-height: 100px;
+}
+footer p{
+    color: black;
+    text-align: center;
+}
+.product{
+    padding: 80px 0;
+}
+.card img{
+    width: 150px;
+    height: 150px;
+}
